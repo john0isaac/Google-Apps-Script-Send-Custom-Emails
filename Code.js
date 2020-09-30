@@ -1,0 +1,54 @@
+function welcomeMessage(){
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var Range = sheet.getRange("A2:B30");
+  var data = Range.getValues();
+  data.forEach(function (rowData) {
+    
+    var templ = HtmlService.createTemplateFromFile('Welcome-Email');
+    var changes = 
+      {
+        name: rowData[0],
+        emailAddress: rowData[1],
+        noOfEvent: 'first',
+        time: 'today',
+        eventLink: 'https://www.facebook.com/DSCMAE/events'
+      };
+    
+    templ.changes = changes;
+    var message = templ.evaluate().getContent();
+  
+  MailApp.sendEmail({
+    to: changes.emailAddress,
+    subject: "DSC Machine Learning Event",
+    htmlBody: message
+  });
+  })
+}
+
+function feedbackMessage(){
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var Range = sheet.getRange("A2:B30");
+  var data = Range.getValues();
+  data.forEach(function (rowData) {
+    
+    var templ = HtmlService.createTemplateFromFile('Feedback-Email');
+    var changes = 
+      {
+        name: rowData[0],
+        emailAddress: rowData[1],
+        feedbackForm: 'place-link-here',
+        eventTitle: 'Intro to Machine Learning Study Jam',
+        qwiklabsForm: 'place-link-here'
+      };
+    
+    templ.changes = changes;
+    var message = templ.evaluate().getContent();
+  
+  MailApp.sendEmail({
+    to: changes.emailAddress,
+    subject: "DSC Event Feedback",
+    htmlBody: message
+  });
+  })  
+}
+  
