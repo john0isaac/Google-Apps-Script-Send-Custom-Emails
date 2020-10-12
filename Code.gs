@@ -12,7 +12,8 @@ function welcomeMessage(){
         chapterName: 'Modern Academy for Engineering',
         noOfEvent: 'first',
         time: 'today',
-        eventLink: 'https://www.facebook.com/DSCMAE/events'
+        eventLink: 'event-link',
+        chapterWebsite: 'chapter-website-link'
       };
     
     templ.changes = changes;
@@ -40,7 +41,8 @@ function feedbackMessage(){
         feedbackForm: 'place-link-here',
         chapterName: 'Modern Academy for Engineering',
         eventTitle: 'Intro to Machine Learning Study Jam',
-        qwiklabsForm: 'place-link-here'
+        qwiklabsForm: 'place-link-here',
+        chapterWebsite: 'chapter-website-link'
       };
     
     templ.changes = changes;
