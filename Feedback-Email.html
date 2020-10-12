@@ -351,8 +351,8 @@
           <!-- HEADER LOGO AND NAME -->
           <header>
           <img src="https://developers.google.com/site-assets/images/home/google_developers_logo.png" alt="Developer Student Clubs Logo" width="125" height="60.5">
-          <p><span style="font-size:19px;"> Developer Student Clubs</span>
-          <br>Modern Academy for Engineering</p>
+          <p><span style="font-size:19px;">Developer Student Clubs</span>
+          <br><?= changes.chapterName ?></p>
           </header>
             
             <!-- START CENTERED WHITE CONTAINER -->
@@ -416,12 +416,12 @@
                 <tr>
                   <td class="content-block">
                     <span class="apple-link">The Developer Student Club Team</span>
-                    <br>Modern Academy for Engineering
+                    <br><?= changes.chapterName ?>
                   </td>
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="https://dsc.community.dev/modern-academy-engineering-department/">DSC MAE Team</a>.
+                    Powered by <a href="<?= changes.chapterWebsite ?>">DSC MAE Team</a>.
                   </td>
                 </tr>
               </table>
