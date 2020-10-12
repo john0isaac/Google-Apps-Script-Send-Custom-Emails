@@ -9,6 +9,7 @@ function welcomeMessage(){
       {
         name: rowData[0],
         emailAddress: rowData[1],
+        chapterName: 'Modern Academy for Engineering',
         noOfEvent: 'first',
         time: 'today',
         eventLink: 'https://www.facebook.com/DSCMAE/events'
@@ -37,6 +38,7 @@ function feedbackMessage(){
         name: rowData[0],
         emailAddress: rowData[1],
         feedbackForm: 'place-link-here',
+        chapterName: 'Modern Academy for Engineering',
         eventTitle: 'Intro to Machine Learning Study Jam',
         qwiklabsForm: 'place-link-here'
       };
