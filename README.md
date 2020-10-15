@@ -44,7 +44,7 @@ This repo contains two html templates you can change whatever you want in them b
 * Place your event's link
 * Place your chapter's Website link
 * Change the Subject of the Email to be sent
-* Save both files
+* Save the file
 
 ### Step 6
 * Inside your Script editor
