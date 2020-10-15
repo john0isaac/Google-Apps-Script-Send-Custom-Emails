@@ -342,7 +342,7 @@
     </style>
   </head>
   <body class="">
-    <span class="preheader">Thank you for registering to <?= changes.eventTitle?>! We hope you were able to attend and connect with fellow members at the Modern Academy for Engineering event.</span>
+    <span class="preheader">Thank you for registering to <?= changes.eventTitle?>! We hope you were able to attend and connect with fellow members at the <?= changes.chapterName ?> event.</span>
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
       <tr>
         <td>&nbsp;</td>
@@ -365,7 +365,7 @@
                     <tr>
                       <td>
                         <p style="font-size:16px;">Dear <?= changes.name ?>,</p>
-                        <p>Thank you for registering to <?= changes.eventTitle?>! We hope you were able to attend and connect with fellow members at the Modern Academy for Engineering event.</p>
+                        <p>Thank you for registering to <?= changes.eventTitle?>! We hope you were able to attend and connect with fellow members at the <?= changes.chapterName ?>  event.</p>
                         <p>If you were at the event, please take a moment to provide your thoughts about it here. 
                         <br>Your feedback helps us continue to create excellent experiences for you.</p>
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
@@ -421,7 +421,7 @@
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="<?= changes.chapterWebsite ?>">DSC MAE Team</a>.
+                    Powered by <a href="<?= changes.chapterWebsite ?>">DSC <?= changes.poweredBy ?> Team</a>.
                   </td>
                 </tr>
               </table>
@@ -435,4 +435,3 @@
     </table>
   </body>
 </html>
-
