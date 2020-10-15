@@ -1,6 +1,6 @@
 function welcomeMessage(){
   var sheet = SpreadsheetApp.getActiveSheet();
-  var Range = sheet.getRange("A2:B30");
+  var Range = sheet.getRange("A2:B2");
   var data = Range.getValues();
   data.forEach(function (rowData) {
     
@@ -11,8 +11,10 @@ function welcomeMessage(){
         emailAddress: rowData[1],
         chapterName: 'Modern Academy for Engineering',
         noOfEvent: 'first',
-        time: 'today',
+        dayOfEvent: 'today',
+        timeOfEvent: '8 PM',
         eventLink: 'event-link',
+        poweredBy: 'MAE',
         chapterWebsite: 'chapter-website-link'
       };
     
@@ -42,6 +44,7 @@ function feedbackMessage(){
         chapterName: 'Modern Academy for Engineering',
         eventTitle: 'Intro to Machine Learning Study Jam',
         qwiklabsForm: 'place-link-here',
+        poweredBy: 'MAE',
         chapterWebsite: 'chapter-website-link'
       };
     
@@ -55,4 +58,3 @@ function feedbackMessage(){
   });
   })  
 }
-  
