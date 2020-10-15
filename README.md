@@ -51,3 +51,4 @@ This repo contains two html templates you can change whatever you want in them b
 * Choose the Function you want to run
 * Press Play button 
 * Authinticate it and you are ready to go
+* Check your email to find the output of what you have just done
