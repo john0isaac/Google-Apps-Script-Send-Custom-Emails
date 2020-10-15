@@ -32,7 +32,21 @@ This repo contains two html templates you can change whatever you want in them b
 * Name the second one Feedback-Email
 * Replace all the code in Welcome-Email.html with the code in [Weclome-Email.html](./Welcome-Email.html)
 * Replace all the code in Feedback-Email.html with the code in [Feedback-Email.html](./Feedback-Email.html)
+* Save both files
 
 ### Step 5
+* Inside your Script editor
+* Go to Code.gs
+* Adjust your range "A2:B2"
+* Write your chapter's Name
+* Write the number of the event
+* Write the time of the event
+* Place your event's link
+* Place your chapter's Website link
+* Change the Subject of the Email to be sent
+* Save both files
+
 ### Step 6
-### Step 7
+* Inside your Script editor
+* Choose the Function you want to run
+* Press Play button 
