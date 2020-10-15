@@ -40,9 +40,11 @@ This repo contains two html templates you can change whatever you want in them b
 * Adjust your range "A2:B2"
 * Write your chapter's Name
 * Write the number of the event
+* Write the day of the event
 * Write the time of the event
 * Place your event's link
 * Place your chapter's Website link
+* Write the Powered by phrase
 * Change the Subject of the Email to be sent
 * Save the file
 
