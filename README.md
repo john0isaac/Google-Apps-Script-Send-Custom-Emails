@@ -1,11 +1,18 @@
 # Google Apps Script Send Custom Emails
 
 Using Google apps script on a google sheet to send two custom html messages to anyone automatically.
+
+## Overview:
+* [HTML Templates](#html-templates)
+* [Steps](#steps)
+
 ![Google Sheets Image](./Helping%20Images/googel%20sheet%20screenshot.png)
 
 ## HTML Templates
 This repo contains two html templates you can change whatever you want in them but to ease the process I created a JSON object Named changes which contains what you need to change per email.
 ![Email Screenshot](./Helping%20Images/email%20screenshot.png)
+
+## Steps
 
 ### Step 1
 * Open [Google Drive](https://drive.google.com/drive)
