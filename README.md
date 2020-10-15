@@ -72,3 +72,5 @@ This repo contains two html templates you can change whatever you want in them b
 * Check your email to find the output of what you have just done
 ![Step 6 Screenshot](./Helping%20Images/6.1.png)
 ![Step 6 Screenshot](./Helping%20Images/6.2.png)
+
+Each time you only need to add the emails and names to your spreadsheet then repeat [Step 5](#step-5), [Step 6](#step-6).
