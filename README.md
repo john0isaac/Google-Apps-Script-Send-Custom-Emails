@@ -22,6 +22,7 @@ This repo contains two html templates you can change whatever you want in them b
 * Open [Google Drive](https://drive.google.com/drive)
 * Create a new Google Sheet
 * Name it whatever you want
+![Step 1 Screenshot](./Helping%20Images/1.png)
 
 ### Step 2
 * Inside your spreadsheet
@@ -29,12 +30,14 @@ This repo contains two html templates you can change whatever you want in them b
 * Add your first name and email to try this script
 * Open the Script editor from the navigation menu
 * Tools -> Script editor
+![Step 2 Screenshot](./Helping%20Images/2.png)
 
 ### Step 3
 * Inside your Script editor
 * Replace all the code in Code.gs with the code in [Code.gs](./Code.gs)
 * Save the Script
 * Name it whatever you want
+![Step 3 Screenshot](./Helping%20Images/3.png)
 
 ### Step 4
 * Inside your Script editor
@@ -44,6 +47,7 @@ This repo contains two html templates you can change whatever you want in them b
 * Replace all the code in Welcome-Email.html with the code in [Weclome-Email.html](./Welcome-Email.html)
 * Replace all the code in Feedback-Email.html with the code in [Feedback-Email.html](./Feedback-Email.html)
 * Save both files
+![Step 4 Screenshot](./Helping%20Images/4.png)
 
 ### Step 5
 * Inside your Script editor
@@ -58,6 +62,7 @@ This repo contains two html templates you can change whatever you want in them b
 * Write the Powered by phrase
 * Change the Subject of the Email to be sent
 * Save the file
+![Step 5 Screenshot](./Helping%20Images/5.png)
 
 ### Step 6
 * Inside your Script editor
@@ -65,3 +70,5 @@ This repo contains two html templates you can change whatever you want in them b
 * Press Play button 
 * Authinticate it and you are ready to go
 * Check your email to find the output of what you have just done
+![Step 6 Screenshot](./Helping%20Images/6.1.png)
+![Step 6 Screenshot](./Helping%20Images/6.2.png)
