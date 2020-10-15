@@ -367,7 +367,7 @@
                       <td>
                         <p style="font-size:16px;">Dear <?= changes.name ?>,</p>
                         <p>Congratulations! We are thrilled to inform you that you have been selected as a member in our Developer Student Club!</p>
-                        <p>A meeting invitation will be sent to you shortly to attend our <?= changes.noOfEvent ?> event <?= changes.time?> 8 PM, it will have a link included inside it. 
+                        <p>A meeting invitation will be sent to you shortly to attend our <?= changes.noOfEvent ?> event <?= changes.dayOfEvent ?> <?= changes.timeOfEvent ?>, it will have a link included inside it. 
                         <br>You can join the meeting by opening the <b>meet</b> link in a chrome tab. <b>No need to install any applications.</b></p>
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
@@ -384,7 +384,7 @@
                             </tr>
                           </tbody>
                         </table>
-                        <p>As for the agenda you will find it inside the meeting invitation. We can’t wait to see you tomorrow!! 
+                        <p>As for the agenda you will find it inside the meeting invitation. We can’t wait to see you <?= changes.dayOfEvent ?>!! 
                         <br>P.s. Don’t forget to prepare your laptop.</p>
                         <p>Thanks again for your interest and congratulations!</p>
                       </td>
@@ -408,7 +408,7 @@
                 </tr>
                 <tr>
                   <td class="content-block powered-by">
-                    Powered by <a href="<?= changes.chapterWebsite ?>">DSC MAE Team</a>.
+                    Powered by <a href="<?= changes.chapterWebsite ?>">DSC <?= changes.poweredBy ?> Team</a>.
                   </td>
                 </tr>
               </table>
