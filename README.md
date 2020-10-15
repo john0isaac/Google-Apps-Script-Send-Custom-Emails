@@ -30,7 +30,7 @@ This repo contains two html templates you can change whatever you want in them b
 * Create two HTML files from File -> New -> HTML file
 * Name the first one Welcome-Email
 * Name the second one Feedback-Email
-* Replace all the code in Welcome-Email.html with the code in [Weclome-Email.html](./Weclome-Email.html)
+* Replace all the code in Welcome-Email.html with the code in [Weclome-Email.html](./Welcome-Email.html)
 * Replace all the code in Feedback-Email.html with the code in [Feedback-Email.html](./Feedback-Email.html)
 
 ### Step 5
