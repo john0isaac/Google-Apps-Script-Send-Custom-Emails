@@ -31,7 +31,7 @@ function welcomeMessage(){
 
 function feedbackMessage(){
   var sheet = SpreadsheetApp.getActiveSheet();
-  var Range = sheet.getRange("A2:B30");
+  var Range = sheet.getRange("A2:B2");
   var data = Range.getValues();
   data.forEach(function (rowData) {
     
