@@ -12,3 +12,11 @@ Apps Script is versatile. Among other things, you can:
   * Publish web apps — either standalone or embedded in Google Sites.
   * Interact with other Google services, including AdSense, Analytics, Calendar, Drive, Gmail, and Maps.
   * Build add-ons and publish them to the Google Workspace Marketplace.
+
+# Services Used
+
+## Spreadsheet Service
+
+## HTML Service
+
+## Mail Service
