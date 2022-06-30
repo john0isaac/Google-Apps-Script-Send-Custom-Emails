@@ -5,6 +5,8 @@ Using Google apps script on a google sheet to send two custom html messages to a
 ## Overview:
 * [HTML Templates](#html-templates)
 * [Steps](#steps)
+* [Learning](#learning)
+* [Contribution](#contribution)
 
 ![Google Sheets Image](./Helping%20Images/googel%20sheet%20screenshot.png)
 
