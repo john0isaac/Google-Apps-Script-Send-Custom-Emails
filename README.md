@@ -74,3 +74,17 @@ This repo contains two html templates you can change whatever you want in them b
 ![Step 6 Screenshot](./Helping%20Images/6.2.png)
 
 Each time you only need to add the emails and names to your spreadsheet then repeat [Step 5](#step-5), [Step 6](#step-6).
+
+## Learning
+This repository contains a [LEARN.md](./LEARN.md) which users can learn and understand how the project works.
+
+Through this, users can even potentially move on to contributing and improving the project.
+
+## Contribution
+
+How to [contribute to the project](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)?
+
+While contributing, it must be necessary that each contributor keeps in mind the [Code Of Conduct](./CODE_OF_CONDUCT.md).
+
+This repository is open for everyone to contribute and is maintained by [John Aziz](https://github.com/John0Isaac).
+
