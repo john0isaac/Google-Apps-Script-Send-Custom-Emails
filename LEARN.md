@@ -6,7 +6,7 @@
 
 
 ## What can Apps Script do?
-### Apps Script is versatile. Among other things, you can:
+Apps Script is versatile. Among other things, you can:
   * Add custom menus, dialogs, and sidebars to Google Docs, Sheets, and Forms.
   * Write custom functions and macros for Google Sheets.
   * Publish web apps — either standalone or embedded in Google Sites.
