@@ -13,7 +13,7 @@ Apps Script is versatile. Among other things, you can:
   * Interact with other Google services, including AdSense, Analytics, Calendar, Drive, Gmail, and Maps.
   * Build add-ons and publish them to the Google Workspace Marketplace.
 
-![Google Apps Script in 60 seconds!](https://youtu.be/GcsBFEbMuIA)
+[![Google Apps Script in 60 seconds](https://img.youtube.com/vi/GcsBFEbMuIA/0.jpg)](https://youtu.be/GcsBFEbMuIA)
 
 # Services Used
 
